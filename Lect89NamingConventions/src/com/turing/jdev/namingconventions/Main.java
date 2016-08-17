@@ -8,11 +8,14 @@ public class Main {
 		myWindow.setVisible(true);*/
 		
 		int n = 10;
-		System.out.println("Factorial of " + n + " : " + Series.factorial(n));
-		System.out.println("Factorial of " + n + " : " + Series.nSum(n));
+		System.out.println("Sum of " + n + " : " + Series.nSum(n));
 		
 		for(int i = 1; i <= n; i++){
-			System.out.println("Factorial of " + n + " : " + Series.Fibonacci(i));
+			System.out.println("Factorial of " + n + " : " + Series.factorial(i));
+		}
+		
+		for(int i = 1; i <= n; i++){
+			System.out.println("Fibonacci of " + n + " : " + Series.Fibonacci(i));
 		}
 		
 	}
